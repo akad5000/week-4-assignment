@@ -1,0 +1,121 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+.container .item-wapper{
+    background-color: blue;
+    box-sizing: border-box;
+}
+html {
+    width: 100%;
+    font-size: 62.5%;
+}
+.nav-item{
+    list-style-type: none;
+    font-size: 1.7rem; font-weight: 400;
+    
+}
+
+.home-nav{
+    display: flex; justify-content: space-between;
+    align-items: center; padding: 1rem 2rem;
+    max-height: 5rem;
+    background: #ffed4b 
+}
+.nav-item a{
+    text-decoration: none;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%; margin: 30%;
+    text-size-adjust: auto;
+    padding: 20%; color: rgb(7, 9, 9);
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    background-blend-mode: screen;
+    background: 
+      linear-gradient(purple 0%, red 90%), 
+      linear-gradient(to right, purple 0%, yellow 90%), 
+      url('asset/img/IMG_0911.JPG') 30px,
+      url('asset/img/IMG_0911.JPG') 30px;
+    background-blend-mode: screen, difference, lighten;  
+    
+}
+
+. {
+
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.logo a{
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo a:hover, .nav-item a:hover{
+    color: blue;
+    text-decoration: underline;
+    transition: underline 400ms linear;
+}
+h1{
+    font-weight: 200; font-style: italic; font-size: 5rem;
+    line-height: 25px; color: aqua; text-align: center;
+    margin-bottom: 5rem; margin-top: 10rem;
+    width: 80%;
+    
+}
+p{
+    line-height: 24px;
+    width: 80%;
+    text-align: center;
+    max-width: 1024px;
+    font-weight: 100px;
+    font-size: 16px;
+}
+img{
+    max-width: 200%; max-height: 200%;  border-radius: 100%; 
+    border-width: 10px;
+    flex-wrap: wrap;
+    
+    
+}
+.image-wrapper{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+.item-wapper{
+    display: flex; justify-content: space-between; flex-wrap: wrap;
+    border: blanchedalmond;
+}
+.item{
+    width: 40px;
+}
+
+.container{
+    padding: 1.5rem;
+    background-color: rgb(206, 199, 199); text-align: center;
+    display: flex;
+    flex-direction: column; justify-content: center;
+    align-items: center;
+
+}
+
+
+*{
+    box-sizing: border-box;
+@media screen and (min-width: 1024px) 
+.item-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+    .item{
+        width: 30%;
+    }
+}
+}
